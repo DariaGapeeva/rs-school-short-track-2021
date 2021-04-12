@@ -11,9 +11,21 @@
  *
  */
 
+// const ListNode = require('../extensions/list-node');
+
 class Queue {
+  // constructor() {
+  //   this.stack = new ListNode();
+  // }
   get size() {
     throw new Error('Not implemented');
+    //   let tmp = this.stack
+    //   let counter = 0
+    //   while (tmp) {
+    //     counter++;
+    //     tmp=tmp.next
+    //   }
+    //   return counter
   }
 
   enqueue(/* element */) {
